@@ -62,9 +62,10 @@ img {
 
 /* normalize/rest 结束*/
 
-img{
+img {
   width: 80px;
   height: 80px;
+  border: 1px solid #999;    
 }
 
 .main {
@@ -77,29 +78,34 @@ img{
 .main-team {
   width: 200px;
   background-color: white;
+  padding: 20px;
   float: left;
+  border: 1px solid #999;  
 }
 
-.main-team p{
-  font-size: 12px;
-  padding: 5px;
+.main-team h1 {
+    float: right;
+  font-weight: normal;
+  font-size: 10px;
 }
 
-.main-team p img {
-  vertical-align: -68px;
-}
+
 .team-description{
+  float: left;
+  width: calc(100% - 140px - 220px);
   background-color: white;
   padding: 20px;
-  margin-left: 250px;
-  margin-right: 180px;
+  margin-left: 20px;
+  margin-right: 20px;
   word-break: break-all;
+  border: 1px solid #999;
 }
 
 .team-detail {
   width: 120px;
   background-color: white;
   float: right;
+  border: 1px solid #999;
 }
 
 .team-detail img{
