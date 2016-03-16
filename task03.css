@@ -104,7 +104,7 @@ img {
 .team-detail {
   width: 120px;
   background-color: white;
-  float: right;
+  float: left;
   border: 1px solid #999;
 }
 
